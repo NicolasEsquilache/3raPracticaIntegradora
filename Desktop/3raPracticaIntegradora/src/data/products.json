@@ -1,0 +1,145 @@
+[
+  {
+      "id": 1,
+      "title": "Producto 1",
+      "description": "Descripción del Producto 1",
+      "code": "P1001",
+      "price": 19.99,
+      "status": true,
+      "stock": 50,
+      "category": "Categoría 1",
+      "thumbnails": [
+          "imagen1.jpg"
+      ]
+  },
+  {
+      "id": 2,
+      "title": "Producto 2",
+      "description": "Descripción del Producto 2",
+      "code": "P1002",
+      "price": 24.99,
+      "status": true,
+      "stock": 30,
+      "category": "Categoría 2",
+      "thumbnails": [
+          "imagen2.jpg"
+      ]
+  },
+  {
+      "id": 3,
+      "title": "Producto 3",
+      "description": "Descripción del Producto 3",
+      "code": "P1003",
+      "price": 14.99,
+      "status": true,
+      "stock": 25,
+      "category": "Categoría 3",
+      "thumbnails": [
+          "imagen3.jpg"
+      ]
+  },
+  {
+      "id": 4,
+      "title": "Producto 4",
+      "description": "Descripción del Producto 4",
+      "code": "P1004",
+      "price": 29.99,
+      "status": true,
+      "stock": 40,
+      "category": "Categoría 1",
+      "thumbnails": [
+          "imagen4.jpg"
+      ]
+  },
+  {
+      "id": 5,
+      "title": "Producto 5",
+      "description": "Descripción del Producto 5",
+      "code": "P1005",
+      "price": 34.99,
+      "status": true,
+      "stock": 10,
+      "category": "Categoría 2",
+      "thumbnails": [
+          "imagen5.jpg"
+      ]
+  },
+  {
+      "id": 6,
+      "title": "Producto 6",
+      "description": "Descripción del Producto 6",
+      "code": "P1006",
+      "price": 9.99,
+      "status": true,
+      "stock": 15,
+      "category": "Categoría 3",
+      "thumbnails": [
+          "imagen6.jpg"
+      ]
+  },
+  {
+      "id": 7,
+      "title": "Producto 7",
+      "description": "Descripción del Producto 7",
+      "code": "P1007",
+      "price": 44.99,
+      "status": true,
+      "stock": 20,
+      "category": "Categoría 1",
+      "thumbnails": [
+          "imagen7.jpg"
+      ]
+  },
+  {
+      "id": 8,
+      "title": "Producto 8",
+      "description": "Descripción del Producto 8",
+      "code": "P1008",
+      "price": 39.99,
+      "status": true,
+      "stock": 5,
+      "category": "Categoría 2",
+      "thumbnails": [
+          "imagen8.jpg"
+      ]
+  },
+  {
+      "id": 9,
+      "title": "Producto 9",
+      "description": "Descripción del Producto 9",
+      "code": "P1009",
+      "price": 19.99,
+      "status": true,
+      "stock": 60,
+      "category": "Categoría 3",
+      "thumbnails": [
+          "imagen9.jpg"
+      ]
+  },
+  {
+      "id": 10,
+      "title": "Producto 12",
+      "description": "Descripción del Producto 10",
+      "code": "P1010",
+      "price": 49.99,
+      "status": true,
+      "stock": 12,
+      "category": "Categoría 1",
+      "thumbnails": [
+          "imagen10.jpg"
+      ]
+  },
+  {
+      "id": 11,
+      "title": "bdfbfd",
+      "description": "fdbdsfbds",
+      "code": "bfbdfs",
+      "price": "1",
+      "status": true,
+      "stock": "1",
+      "category": "fdgfadga",
+      "thumbnails": [
+          "C:\\fakepath\\Imagen de WhatsApp 2023-09-24 a las 19.06.56.jpg"
+      ]
+  }
+]

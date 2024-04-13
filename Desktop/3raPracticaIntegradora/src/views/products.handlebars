@@ -1,0 +1,37 @@
+<h1>Perfil de Usuario</h1>
+<p>Nombre: {{user.first_name}} {{user.last_name}}</p>
+<p>Email: {{user.email}}</p>
+<p>Edad: {{user.age}}</p>
+<form method="POST" action="/api/sessions/logout">
+    <button type="submit">Logout</button>
+</form>
+{{#each response.payload}}
+<div class="product">
+    <h2>{{this.title}}</h2>
+    <p>Description: {{this.description}}</p>
+    <p>Price: {{this.price}}</p>
+    <p>Categoría: {{this.category}}</p>
+    {{!-- Botón para agregar al carrito --}}
+    <form action="/api/carts/{{cartId}}/product/{{_id}}" method="post">
+        <input type="number" name="quantity" value="1" min="1">
+        <button type="submit">Agregar al carrito</button>
+    </form>
+</div>
+{{/each}}
+<br />
+{{!-- Paginación --}}
+<div>
+    {{#if response.hasPrevPage}}
+    <a href={{response.prevLink}}>
+        << Anterior </a>
+            &nbsp;
+            {{/if}}
+
+            {{response.page}}
+
+            &nbsp;
+
+            {{#if response.hasNextPage}}
+            <a href={{response.nextLink}}> Siguiente >> </a>
+            {{/if}}
+</div>

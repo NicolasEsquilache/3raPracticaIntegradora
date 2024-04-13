@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Products</title>
+</head>
+
+<body>
+
+    <section class="forms_section">
+        {{!-- Add Product --}}
+        <form action="#" id="newProduct">
+            <h1>Add product</h1>
+            <label for="">Title</label>
+            <input type="text" required id="title" value="Product1">
+            <label for="">Description</label>
+            <input type="text" required id="description" value="Description1">
+            <label for="">Price</label>
+            <input type="number" required id="price" value="11">
+            <label for="">File name</label>
+            <input type="text" required id="thumbnails" value="/thumbnail1.jpg">
+            <label for="">Code</label>
+            <input type="text" required id="code" value="P001">
+            <label for="">Stock</label>
+            <input type="number" required id="stock" value="1">
+            <label for="">Status</label>
+            <select name="" id="status">
+                <option value="true" selected>True</option>
+                <option value="false">False</option>
+            </select>
+            <label for="">Category</label>
+            <input type="text" required id="category" value="Category1">
+            <button type="submit" class="btn_add">Add product</button>
+            <label for="" class="resultAdd" id="resultAdd"></label>
+        </form>
+
+        {{!-- Delete Product --}}
+        <form action="##" id="deleteProduct">
+            <h2>Delete Product</h2>
+            <label for="">Enter _id of product to delete</label>
+            <input type="text" value="0" required id="inputNum">
+            <button class="btn_del" type="submit">Delete product</button>
+            <label for="" class="resultDelete" id="resultDelete"></label>
+        </form>
+    </section>
+
+    {{!-- View Real-Time Products --}}
+    <h2 class="title_products">Real-Time Products</h2>
+
+    <ul class="product_box_realTime" id="realTimeProductList">
+
+    </ul>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/realTimeProducts.js"></script>
+</body>
+
+</html>
